@@ -6,11 +6,13 @@ import {
 
 import userEvent from '@testing-library/user-event';
 
-import App from './App';
+import { List } from './index';
 
-describe('App Component', () => {
+describe('List Component', () => {
   it('should render list items', () => {
-    const { getByText } = render(<App />);
+    const { getByText } = render(
+      <List initialItems={['Alexandre', 'Diego', 'Mayk', 'Rodz']} />,
+    );
 
     expect(getByText('Alexandre')).toBeInTheDocument();
     expect(getByText('Diego')).toBeInTheDocument();
@@ -19,7 +21,9 @@ describe('App Component', () => {
   });
 
   it('should be able to add new item to the list', async () => {
-    const { getByText, getByPlaceholderText } = render(<App />);
+    const { getByText, getByPlaceholderText } = render(
+      <List initialItems={[]} />,
+    );
 
     const inputElement = getByPlaceholderText('Novo Item');
     const addButton = getByText('Adicionar');
@@ -33,7 +37,9 @@ describe('App Component', () => {
   });
 
   it('should be able to remove new item from the list', async () => {
-    const { getByText, getAllByText } = render(<App />);
+    const { getByText, getAllByText } = render(
+      <List initialItems={['Alexandre']} />,
+    );
 
     const removeButtons = getAllByText('Remover');
 
@@ -45,7 +51,9 @@ describe('App Component', () => {
   });
 
   it('should be able to remove new item from the list (other way to test)', async () => {
-    const { queryByText, getAllByText } = render(<App />);
+    const { queryByText, getAllByText } = render(
+      <List initialItems={['Alexandre']} />,
+    );
 
     const removeButtons = getAllByText('Remover');
 
