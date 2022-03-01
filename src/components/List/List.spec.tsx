@@ -20,6 +20,21 @@ describe('List Component', () => {
     expect(getByText('Rodz')).toBeInTheDocument();
   });
 
+  it('should render list items with the value that been passed in initialItems property', () => {
+    const { getByText, queryByText, rerender, unmount } = render(
+      <List initialItems={['Alexandre']} />,
+    );
+
+    expect(getByText('Alexandre')).toBeInTheDocument();
+
+    unmount();
+
+    rerender(<List initialItems={['Diego']} />);
+
+    expect(getByText('Diego')).toBeInTheDocument();
+    expect(queryByText('Alexandre')).not.toBeInTheDocument();
+  });
+
   it('should be able to add new item to the list', async () => {
     const { getByText, getByPlaceholderText } = render(
       <List initialItems={[]} />,
