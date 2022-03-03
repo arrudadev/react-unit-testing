@@ -35,3 +35,9 @@
 * [Contributing](#contributing)
 * [Collaborators](#collaborators)
 * [License](#license)
+
+<h2 id="about-the-project"> :pencil: About The Project</h2>
+
+<p align="justify">
+  This project is a small example of how to build tests in a React app using Jest and Testing library. Jest is a framework to build tests in Javascript. The React Testing Library is a very light-weight solution for testing React components. It provides light utility functions on top of react-dom and react-dom/test-utils, in a way that encourages better testing practices. The purpose of this project is to study how to build tests in a React app using Jest and Testing library.
+</p>
