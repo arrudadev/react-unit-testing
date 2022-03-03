@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "lint": "lint-staged",
     "prepare": "husky install",
-    "test": "jest --watchAll"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "dependencies": {
     "react": "^17.0.2",
