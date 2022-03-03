@@ -51,3 +51,42 @@ This project was developed with the following technologies:
 - [Typescript](https://www.typescriptlang.org/)
 - [Jest](https://jestjs.io/pt-BR/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
+<h2 id="getting-started"> :runner: Getting Started</h2>
+
+<p align="justify">
+  To run the project locally follow these steps:
+</p>
+
+<h3 id="prerequisites"> :warning: Prerequisites</h3>
+
+- [NodeJs](https://nodejs.org/en/) Prefer to install the LTS version.
+- [Yarn](https://yarnpkg.com/) Need to install latest version prior to 2.0 version.
+
+<h3 id="installation"> :construction_worker: Installation</h3>
+
+<p align="justify">
+  1. To clone the project, run this command:
+</p>
+
+```
+git clone https://github.com/arrudadev/react-unit-testing.git
+```
+
+<p align="justify">
+  2. Install dependencies:
+</p>
+
+```
+yarn install
+```
+
+<h3 id="usage"> :metal: Usage</h3>
+
+<p align="justify">
+  Run the following command to run the tests:
+</p>
+
+```
+yarn test
+```
