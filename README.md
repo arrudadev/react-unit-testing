@@ -23,3 +23,15 @@
 </p>
 
 <img src="https://raw.githubusercontent.com/arrudadev/react-unit-testing/main/.github/assets/cover.png" height="500" width="100%" alt="cover" />
+
+<h2 id="table-of-contents"> :pushpin: Table of Contents</h2>
+
+* [About The Project](#about-the-project)
+* [Technologies](#technologies)
+* [Getting Started](#getting-started)
+   * [Prerequisites](#prerequisites)
+   * [Installation](#installation)
+   * [Usage](#usage)
+* [Contributing](#contributing)
+* [Collaborators](#collaborators)
+* [License](#license)
