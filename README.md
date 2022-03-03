@@ -3,7 +3,7 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="100" width="100" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="100" width="100" />
   </div>
-  Unit Testing int React with Jest
+  Unit Testing in React with Jest
   <br>
 </h1>
 
@@ -21,3 +21,5 @@
   <a href="https://github.com/arrudadev/react-unit-testing/issues">Report Bug</a> •
   <a href="https://github.com/arrudadev/react-unit-testing/issues">Request Feature</a>
 </p>
+
+<img src="https://raw.githubusercontent.com/arrudadev/react-unit-testing/main/.github/assets/cover.png" height="500" width="100%" alt="cover" />
