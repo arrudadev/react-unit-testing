@@ -129,3 +129,7 @@ For more information read the [Contributing Guidelines](https://github.com/arrud
     </td>
   </tr>
 </table>
+
+<h2 id="license"> :page_facing_up: License</h2>
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
