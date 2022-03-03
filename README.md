@@ -41,3 +41,13 @@
 <p align="justify">
   This project is a small example of how to build tests in a React app using Jest and Testing library. Jest is a framework to build tests in Javascript. The React Testing Library is a very light-weight solution for testing React components. It provides light utility functions on top of react-dom and react-dom/test-utils, in a way that encourages better testing practices. The purpose of this project is to study how to build tests in a React app using Jest and Testing library.
 </p>
+
+<h2 id="technologies"> :computer: Technologies</h2>
+
+This project was developed with the following technologies:
+
+- [React](https://reactjs.org)
+- [Vite](https://vitejs.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
