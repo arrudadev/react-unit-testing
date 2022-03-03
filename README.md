@@ -15,6 +15,7 @@
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
   ![GitHub repo size](https://img.shields.io:/github/repo-size/arrudadev/react-unit-testing)
   [![build](https://github.com/arrudadev/react-unit-testing/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/arrudadev/react-unit-testing/actions/workflows/build.yml)
+  [![codecov](https://codecov.io/gh/arrudadev/react-unit-testing/branch/main/graph/badge.svg?token=J0NWK7GN4E)](https://codecov.io/gh/arrudadev/react-unit-testing)
 
 </div>
 
