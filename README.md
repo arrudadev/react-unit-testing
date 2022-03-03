@@ -90,3 +90,23 @@ yarn install
 ```
 yarn test
 ```
+
+<h2 id="contributing"> :tada: Contributing</h2>
+
+<p align="justify">
+  Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+</p>
+
+<p align="justify">
+  If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue. Don't forget to give the project a star! Thanks again!
+</p>
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/amazing-feature`)
+3. Commit your Changes (`git commit -m 'feat: Add some Amazing Feature'`)
+4. Push to the Branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+**After your pull request is merged**, you can safely delete your branch.
+
+For more information read the [Contributing Guidelines](https://github.com/arrudadev/react-unit-testing/blob/main/CONTRIBUTING.md).
