@@ -14,6 +14,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
   ![GitHub repo size](https://img.shields.io:/github/repo-size/arrudadev/react-unit-testing)
+  [![build](https://github.com/arrudadev/react-unit-testing/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/arrudadev/react-unit-testing/actions/workflows/build.yml)
 
 </div>
 
